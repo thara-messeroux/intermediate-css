@@ -42,3 +42,22 @@ ul.top-level-list:hover {
     color: seagreen;
 }
 
+/* child selector */
+/* > means only select direct/nested children */
+.top-level-list > li {
+    border: 1px solid;
+}
+
+/* adjacent sibling selector */
+/* only selects divs that has divs before them */
+div + div {
+    color: green;
+}
+
+/* general sibling selector */
+input ~ input {
+    border: 1px solid red;
+}
+
+/* dynamic values */
+/* em - rem - % - vw - vh */
