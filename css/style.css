@@ -1,7 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+/* padding is included in size */
+
 body {
     font-family: Helvetica, Tahoma, Verdana, sans-serif;
 }
 
 h1 {
     text-align: center;
+}
+
+.box {
+    background-color: red;
+    width: 200px;
+    padding: 20px;
 }
