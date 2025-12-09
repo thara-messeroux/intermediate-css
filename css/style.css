@@ -37,6 +37,8 @@ ul.top-level-list:hover {
 }
 
 /* pseudo-elements */
-.comments.title {
-
+#comments-title::first-letter {
+    font-size: 60px;
+    color: seagreen;
 }
+
