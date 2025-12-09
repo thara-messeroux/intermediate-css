@@ -20,3 +20,23 @@ h1 {
     width: 200px;
     padding: 20px;
 }
+
+/* attribute selectors */
+input[type='number']{
+    font-family: Roboto;
+}
+
+label[for='year']{
+    font-family: roboto;
+}
+
+/* pseudo-classes */
+
+ul.top-level-list:hover {
+    cursor: pointer;
+}
+
+/* pseudo-elements */
+.comments.title {
+
+}
